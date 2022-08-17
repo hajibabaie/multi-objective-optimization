@@ -10,8 +10,8 @@ def main():
                              min_range_variables=-4,
                              max_range_variables=4,
                              cost_function=cost_func,
-                             max_iteration=200,
-                             number_population=200,
+                             max_iteration=100,
+                             number_population=50,
                              crossover_percentage=0.8,
                              mutation_percentage=0.4,
                              mutation_rate=0.03)

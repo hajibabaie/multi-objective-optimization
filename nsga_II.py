@@ -233,6 +233,7 @@ class NSGAII:
 
         offspring[0, indices] = position[0, indices] + 0.1 * (self._max_range_variables - self._min_range_variables) * np.random.randn(number_mutants)
 
+        offspring = np.clip(offspring, self._min_range_variables, self._max_range_variables)
 
         return offspring
 
