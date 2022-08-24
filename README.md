@@ -1,4 +1,4 @@
-# multi-objective-optimization
+# multi-objective-optimization using numpy and scipy
 
 1. Non Dominated Sorting Genetic Algorithm - II. 
 2. Multi Objective Particle Swarm Optimization.
